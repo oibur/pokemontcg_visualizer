@@ -13,5 +13,7 @@ for name in dex_names:
     except KeyError:
         pass
 
-with open('API Occurences.txt', 'w') as outfile:
-    json.dump(pokemon_counts, outfile, indent=4)
+print(dex_names)
+
+# with open('API Occurences.txt', 'w') as outfile:
+#     json.dump(pokemon_counts, outfile, indent=4)
