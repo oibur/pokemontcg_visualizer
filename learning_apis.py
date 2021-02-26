@@ -1,24 +1,17 @@
 import json
-import requests
-from pokemontcgsdk import Card
 
-with open('testing.txt', 'r') as f:
+from get_counts import get_count as gc
+
+with open('pokenames.txt', 'r') as f:
     dex_names = [line.strip() for line in f]
 
-occurences = dict()
-
-api_key = 'c2eaa76b-c34c-4d3a-8f33-da95a230d9ea'
-api_base_url = f'https://api.pokemontcg.io/v2'
+pokemon_counts = dict()
 
 for name in dex_names:
     try:
-        endpoint_path = f'/cards?q=name:{name}'
-        endpoint = f'{api_base_url}{endpoint_path}'
-        data = (requests.get(endpoint, data={'X-api-key': api_key})).json()
-        zacian = data['count']
-        occurences[name] = zacian
+        pokemon_counts[name.title()] = gc(name)
     except KeyError:
-        zacian = 0
+        pass
 
 with open('API Occurences.txt', 'w') as outfile:
-    json.dump(occurences, outfile, indent=4)
+    json.dump(pokemon_counts, outfile, indent=4)

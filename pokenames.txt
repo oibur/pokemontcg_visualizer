@@ -26,10 +26,10 @@ Pikachu
 Raichu
 Sandshrew
 Sandslash
-Nidoran
+"Nidoran ♀"
 Nidorina
 Nidoqueen
-Nidoran
+"Nidoran ♂"
 Nidorino
 Nidoking
 Clefairy
@@ -80,7 +80,7 @@ Slowpoke
 Slowbro
 Magnemite
 Magneton
-Farfetchd
+Farfetch'd
 Doduo
 Dodrio
 Seel
@@ -119,7 +119,7 @@ Goldeen
 Seaking
 Staryu
 Starmie
-Mr. Mime
+"Mr. Mime"
 Scyther
 Jynx
 Electabuzz
@@ -436,7 +436,7 @@ Skuntank
 Bronzor
 Bronzong
 Bonsly
-Mime Jr.
+"Mime Jr."
 Happiny
 Chatot
 Spiritomb
@@ -471,7 +471,7 @@ Leafeon
 Glaceon
 Gliscor
 Mamoswine
-PorygonZ
+Porygon-Z
 Gallade
 Probopass
 Dusknoir
@@ -666,7 +666,7 @@ Spewpa
 Vivillon
 Litleo
 Pyroar
-Flabebe
+Flabébé
 Floette
 Florges
 Skiddo
@@ -769,7 +769,7 @@ Golisopod
 Sandygast
 Palossand
 Pyukumuku
-Type: Null
+"Type: Null"
 Silvally
 Minior
 Komala
@@ -782,10 +782,10 @@ Dhelmise
 Jangmo-o
 Hakamo-o
 Kommo-o
-TapuKoko
-TapuLele
-TapuBulu
-TapuFini
+"Tapu Koko"
+"Tapu Lele"
+"Tapu Bulu"
+"Tapu Fini"
 Cosmog
 Cosmoem
 Solgaleo
@@ -840,7 +840,7 @@ Coalossal
 Applin
 Flapple
 Appletun
-Sillicobra
+Silicobra
 Sandaconda
 Cramorant
 Arrokuda
@@ -850,7 +850,7 @@ Toxtricity
 Sizzlipede
 Centiskorch
 Clobbopus
-Grappoloct
+Grapploct
 Sinistea
 Polteageist
 Hatenna
