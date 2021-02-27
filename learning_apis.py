@@ -5,6 +5,8 @@ from get_counts import get_count as gc
 with open('pokenames.txt', 'r') as f:
     dex_names = [line.strip() for line in f]
 
+print(dex_names)
+
 pokemon_counts = dict()
 
 for name in dex_names:
@@ -13,7 +15,5 @@ for name in dex_names:
     except KeyError:
         pass
 
-print(dex_names)
-
-# with open('API Occurences.txt', 'w') as outfile:
-#     json.dump(pokemon_counts, outfile, indent=4)
+with open('API Occurences.txt', 'w') as outfile:
+    json.dump(pokemon_counts, outfile, indent=4)
