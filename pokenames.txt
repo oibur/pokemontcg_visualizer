@@ -80,7 +80,7 @@ Slowpoke
 Slowbro
 Magnemite
 Magneton
-Farfetchd
+Farfetch'd
 Doduo
 Dodrio
 Seel
@@ -471,7 +471,7 @@ Leafeon
 Glaceon
 Gliscor
 Mamoswine
-PorygonZ
+Porygon-Z
 Gallade
 Probopass
 Dusknoir
@@ -840,7 +840,7 @@ Coalossal
 Applin
 Flapple
 Appletun
-Sillicobra
+Silicobra
 Sandaconda
 Cramorant
 Arrokuda
@@ -850,7 +850,7 @@ Toxtricity
 Sizzlipede
 Centiskorch
 Clobbopus
-Grappoloct
+Grapploct
 Sinistea
 Polteageist
 Hatenna
