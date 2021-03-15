@@ -1,5 +1,5 @@
 import json
-import matplotlib. pyplot as plt
+import matplotlib.pyplot as plt
 
 def make_a_graph(Genx_txt):
     with open(Genx_txt) as f: 
