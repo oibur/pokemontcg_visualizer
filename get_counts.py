@@ -1,8 +1,8 @@
+#Given a Pokemon name get_count will run the name through an API 
+#and return how many times that pokemon has appeared on a card
 import requests
 
-#returns card counts for each pokemon from API
-#requires a txt file with the names of every pokemon
-
+#Members of Code Louisville, please feel free to ask for my API
 api_key = '...'
 api_base_url = 'https://api.pokemontcg.io/v2'
 

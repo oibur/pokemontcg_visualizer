@@ -6,7 +6,7 @@ import json
 from get_counts import get_count as gc
 
 #Supply a list with the names of every Pokemon
-with open('pokenames.txt', 'r') as f:
+with open('txt_files/pokenames.txt', 'r') as f:
     dex_names = [line.strip() for line in f]
 
 #Initialize dictionary

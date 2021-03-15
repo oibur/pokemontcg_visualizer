@@ -1,5 +1,5 @@
+#Asks user for a Pokemon name and returns how many cards that Pokemon has appeared on.
 from get_counts import get_count as gc
-#asks user for a Pokemon and returns how many cards they have
 
 pokemon = ""
 try:
