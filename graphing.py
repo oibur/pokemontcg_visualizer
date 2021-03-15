@@ -1,5 +1,5 @@
 import json
-import matplotlib. pyplot as plt
+import matplotlib.pyplot as plt
 
 def make_a_graph(Genx_txt):
     with open(Genx_txt) as f: 
@@ -13,4 +13,4 @@ def make_a_graph(Genx_txt):
         plt.barh(names, number)
         plt.show()
 
-make_a_graph('Gen'+input("what Gen would you like to see? ")+'.txt')
+make_a_graph('txt_files/Gen'+input("what Gen would you like to see? ")+'.txt')
