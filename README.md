@@ -1,6 +1,7 @@
 # pokemontcg_visualizer
 
 ***March 14th, 2021***
+*Requires matplotlib and requests to be installed
 Apps/Programs now Available!
 
 1) Game (rpsGame.py) is a rock/paper/scissors game that I have modified to bulbasaur/charmander/squirtle where fire beats grass, grass beats water and water beats fire. 
