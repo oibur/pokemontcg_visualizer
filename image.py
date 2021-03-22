@@ -16,15 +16,6 @@ def get_name_count(num):
     endpoint = f'https://api.pokemontcg.io/v2/cards?q=nationalPokedexNumbers:{num}'
     data = (requests.get(endpoint, data={'X-api-key': api_key})).json()
     #Retrieves data from API and append to dictionary
-    name_counts[data['data'][0]['name']] = data['count']
+    print(data['data'][0]['images']['small'])
 
-#Input what range of pokemon dex numbers you want to retrieve
-for num in range (1, 894):
-    try:
-        get_name_count(num)
-    except IndexError:
-        pass
-
-#Writes dictionary to JSON file
-with open('API Occurences2.txt', 'w') as outfile:
-    json.dump(name_counts, outfile, indent=4)
+get_name_count(26)

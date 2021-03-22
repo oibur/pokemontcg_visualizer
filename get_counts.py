@@ -3,12 +3,9 @@
 import requests
 
 #Members of Code Louisville, please feel free to ask for my API
-api_key = '...'
-api_base_url = 'https://api.pokemontcg.io/v2'
+api_key = 'c2eaa76b-c34c-4d3a-8f33-da95a230d9ea'
 
 def get_count(name_of_pokemon):
-    endpoint_path = f'/cards?q=name:{name_of_pokemon}'
-    endpoint = f'{api_base_url}{endpoint_path}'
-    data = (requests.get(endpoint, data={'X-api-key': api_key})).json()
-    counts = data['count']
-    return counts
+    endpoint = f'https://api.pokemontcg.io/v2/cards?q=name:{name_of_pokemon}'
+    data = (requests.get(endpoint, data={'X-api-key': api_key})).json() 
+    return data['count']

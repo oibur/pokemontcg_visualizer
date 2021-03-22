@@ -13,5 +13,4 @@ def make_a_graph(Genx_txt):
         plt.barh(names, number)
         plt.show()
 
-
-make_a_graph('txt_files/Gen'+input("what Gen would you like to see? ")+'.txt')
+make_a_graph('txt_files/Gen'+input("what Gen would you like to see? ")+'.json')
