@@ -18,7 +18,7 @@ def get_name_count(num):
     #Retrieves data from API and append to dictionary
     name_counts[data['data'][0]['name']] = data['count']
 
-#Input what range of pokemon dex numbers you want to retrieve
+######     Input what range of pokemon dex numbers you want to retrieve     ######
 for num in range (1, 894):
     try:
         get_name_count(num)
